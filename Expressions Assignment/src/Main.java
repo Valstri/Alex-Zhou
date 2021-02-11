@@ -20,6 +20,7 @@ public class Main {
 
         //Expression 2
         System.out.println(23%4 + (18 - 3 / 2));
+        System.out.println(3 + (18-3/2));
         System.out.println(3+(17));
         System.out.println(20);
         //Expression 3

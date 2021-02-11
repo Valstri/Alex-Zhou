@@ -88,7 +88,7 @@
       <recent name="C:\Users\pzaremba\GitHub\Programming-11-Online" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NE">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Expressions Assignment" />
@@ -111,15 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,8 +140,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NE" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.NE" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +166,7 @@
       <workItem from="1612889488234" duration="3844000" />
       <workItem from="1612894744190" duration="46000" />
       <workItem from="1612894821002" duration="43000" />
+      <workItem from="1613062856455" duration="123000" />
     </task>
     <servers />
   </component>

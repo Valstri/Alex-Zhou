@@ -24,6 +24,7 @@ public class Main {
         System.out.println(20);
         //Expression 3
         System.out.println(((8 - 5) + Math.pow(3,4)/5));
+        System.out.println(3 + Math.pow(3,4)/5);
         System.out.println(3+ 81.0/5);
         System.out.println(19.2);
         //Expression 4

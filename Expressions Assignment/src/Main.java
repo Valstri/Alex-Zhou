@@ -15,6 +15,8 @@ public class Main {
         */
         //Expression 1
         System.out.println((9 - 4)+ 10/2 - (4 - 8)/3);
+        System.out.println(5+10/2-(4-8)/3);
+        System.out.println(5+5-(4-8)/3);
         System.out.println(5+5+4/3);
         System.out.println(11);
 
@@ -30,6 +32,8 @@ public class Main {
         System.out.println(19.2);
         //Expression 4
         System.out.println((9 % 4) - 8 + Math.pow(2,3) / 8 + (Math.sqrt(81) / 3));
+        System.out.println(1-8+Math.pow(2,3)/8+(Math.sqrt(81)/3));
+        System.out.println(1-8+8/8+Math.sqrt(81)/3);
         System.out.println(1-8+8/8+3);
         System.out.println(-3);
         //Expression 5

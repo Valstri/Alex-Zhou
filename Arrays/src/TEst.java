@@ -3,10 +3,13 @@ public class TEst {
         int[] TAB = new int[11];
         int total = 0;
         for (int index = 1; index < TAB.length; index++) {
-            TAB[index] = (int) (Math.random() * 100) + 1;
-            int result = TAB[index];
+            int result = (int) (Math.random() * 100) + 1;
             System.out.println("index: " + index + " " + "result: " + result);
+            total = total + result;
+            int fifth = TAB[5];
+            if (index == 10) {
+                System.out.println(fifth);
+                }
+            }
         }
-        System.out.println(TAB[1]);
     }
-}

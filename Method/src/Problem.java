@@ -45,6 +45,6 @@ public class Problem {
 
 
     public static void main(String[] args) {
-        Problem3(3 , 999999);
+        Problem3(5,6);
     }
 }

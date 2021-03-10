@@ -1,13 +1,27 @@
-public class Student {
-    private String firstname;
-    static private int ID;
-    int[] Subject = new int[6];
-    static void Array(String Sub1, String Sub2, String Sub3, String Sub4, String Sub5){
-        int[] Subject = new int[9];
-        for(int i = 0; i < Subject.length; i ++){
+import javax.security.auth.Subject;
+import java.lang.reflect.Array;
+import java.sql.SQLOutput;
+import java.util.ArrayList;
 
-        }
+public class Student {
+    private String Firstname;
+    private static int ID = 0;
+    private int IDNum;
+    Student(String Firstname){
+        this.Firstname = Firstname;
+        IDNum = ID;
+        ID ++;
     }
+    //Array
+    void SubjectList(Courses Subject){
+        ArrayList<Courses> ArraySubject = new ArrayList<>();
+        ArraySubject.add(Subject);
+        System.out.println(Firstname + "\n" + ArraySubject);
+    }
+    public String toString(){
+        return "Student First name: "+ Firstname + " " + "Student ID: " + IDNum;
+    }
+
 
 
 }

@@ -24,7 +24,8 @@ public class Courses {
     }
 
     public String toString(){
-        return "Subject: " + Subject + "Grade: " + Grade;
+        return "Subject: " + Subject + " Grade: " + Grade;
     }
+
 
 }

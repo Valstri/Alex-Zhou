@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="464.0" prefWidth="281.0">
+         <children>
+            <Button fx:id="One" layoutX="14.0" layoutY="350.0" mnemonicParsing="false" onAction="#DigitOne" text="1" />
+            <Button fx:id="Two" layoutX="89.0" layoutY="350.0" mnemonicParsing="false" onAction="#DigitTwo" text="2" />
+            <Button fx:id="Three" layoutX="164.0" layoutY="350.0" mnemonicParsing="false" onAction="#DigitThree" text="3" />
+            <Button fx:id="Four" layoutX="15.0" layoutY="257.0" mnemonicParsing="false" onAction="#DigitFour" text="4" />
+            <Button fx:id="Five" layoutX="89.0" layoutY="257.0" mnemonicParsing="false" onAction="#DigitFive" text="5" />
+            <Button fx:id="Six" layoutX="164.0" layoutY="257.0" mnemonicParsing="false" onAction="#DigitSix" text="6" />
+            <Button fx:id="Seven" layoutX="14.0" layoutY="165.0" mnemonicParsing="false" onAction="#DigitSeven" text="7" />
+            <Button fx:id="Eight" layoutX="89.0" layoutY="165.0" mnemonicParsing="false" onAction="#DigitEight" text="8" />
+            <Button fx:id="Nine" layoutX="164.0" layoutY="165.0" mnemonicParsing="false" onAction="#DigitNine" text="9" />
+            <Button fx:id="Plus" layoutX="215.0" layoutY="165.0" mnemonicParsing="false" onAction="#Add" text="+" />
+            <Button fx:id="Minus" layoutX="217.0" layoutY="232.0" mnemonicParsing="false" onAction="#Minus" text="-" />
+            <Button fx:id="Multi" layoutX="217.0" layoutY="301.0" mnemonicParsing="false" onAction="#Times" text="x" />
+            <Button fx:id="Divide" layoutX="215.0" layoutY="363.0" mnemonicParsing="false" onAction="#Divide" text="÷" />
+            <Label fx:id="Monitor1" layoutX="26.0" layoutY="55.0" prefHeight="17.0" prefWidth="107.0" text="0" />
+            <Button fx:id="Zero" layoutX="15.0" layoutY="419.0" mnemonicParsing="false" onAction="#DigitZero" text="0" />
+            <Label fx:id="Monitor2" layoutX="150.0" layoutY="55.0" />
+            <Button fx:id="Equal" layoutX="215.0" layoutY="419.0" mnemonicParsing="false" onAction="#Equal" text="=" />
+            <Button fx:id="Reset" layoutX="78.0" layoutY="419.0" mnemonicParsing="false" onAction="#Reset" text="Reset" />
+            <Button fx:id="DEC" layoutX="166.0" layoutY="419.0" mnemonicParsing="false" onAction="#DEC" text="." />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

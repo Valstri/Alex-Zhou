@@ -90,15 +90,9 @@ public class Controller {
     }
 
     public void Divide(ActionEvent actionEvent) {
-        if(FinalNum != "" + "0"){
+
             OP("/");
-        }
-        if (FinalNum == "0"){
-            Monitor2.setText("Can not divided by zero");
-            FinalNum = "";
-            Op = "";
-            Monitor1.setText("0");
-        }
+
 
 
 
@@ -123,26 +117,25 @@ public class Controller {
         }
         FinalNum = Double.toString(Num);
         Op = "";
-
         String Display = Double.toString(Num);
         Monitor2.setText(Display);
 
     }
     public void OP(String Operator){
-        if(Op == "") {
+        if(Op == "" && FinalNum != "") {
             Num = Double.parseDouble(FinalNum);
 
         }
-        if(Op == "+"){
+        if(Op == "+" && FinalNum != ""){
             Num = Num + Double.parseDouble(FinalNum);
         }
-        if(Op == "*"){
+        if(Op == "*" && FinalNum != ""){
             Num = Num * Double.parseDouble(FinalNum);
         }
-        if(Op == "/"){
+        if(Op == "/" && FinalNum != ""){
             Num = Num / Double.parseDouble(FinalNum);
         }
-        if(Op == "-"){
+        if(Op == "-" && FinalNum != ""){
             Num = Num - Double.parseDouble(FinalNum);
         }
         FinalNum = "";
